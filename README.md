@@ -4,7 +4,11 @@
 
 - **Day 1 - Fundamentals of VLSI Design and
 Overview of Sand-to-Silicon**
-  <details><summary> Theory </summary>
+- **Day 2 - Details of IC Manufacturing Process**
+  
+## Day 1 
+ <details><summary> Theory </summary>
+ 
   
   ## **Overview of VLSI Design**
   - **Packaged Chip**
@@ -119,5 +123,35 @@ Overview of Sand-to-Silicon**
         - Placement and routing
         - Simulation
         - Design rules and checking
+</details>
 
+## Day2
+  <details>
+  <summary> Theory </summary>
+  
+ ## **Analog VLSI Design Flow and CMOS Fabrication Process**
+  - **Analog IC Design Process**
+  
+  ![tempsnip](https://user-images.githubusercontent.com/122155193/211691046-388cdea4-312d-44c6-8dae-3ae16b00909f.png)
+  
+  ![image](https://user-images.githubusercontent.com/122155193/211691175-91c7f27c-d825-40d4-891b-8fdc6719a969.png)
 
+  - **Analog IC Design Process and its Relation with CAD and PDK**
+  
+  ![image](https://user-images.githubusercontent.com/122155193/211691478-f31aea87-d443-4210-b7c5-4443de798448.png)
+
+  - **Role of Circuit Designer**
+    - Design a practical circuit based on the device limits, technology constraints and physical implementations rather than a ideal circuit.
+    - Have very good understanding of layout design, so that in less iterations the design can be fridged.
+    - Always discuss with the layout designer for better and efficient circuit design.
+  
+  - **CMOS Technology**
+    - Comparison of BJT and MOSFET Technology
+    ![image](https://user-images.githubusercontent.com/122155193/211692066-23cdd7bc-12da-458f-9637-16315e0f7969.png)
+
+    - Categorization of the CMOS Technology:
+      - Submicron Technology: Lmin ≥ 0.35 µm
+      - Deep Submicron Technology (DSM): 0.1 µm ≤ Lmin ≤ 0.35 µm
+      - Ultra-Deep Submicron Technology (UDSM): Lmin ≤ 0.1 µm
+      - BiCMOS Technology: Lmin = 0.5 µm
+    
