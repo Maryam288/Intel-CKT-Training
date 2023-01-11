@@ -262,7 +262,8 @@ Overview of Sand-to-Silicon**
  - Contact cuts are made to source, drain, and gate according to the contact mask. These are holes etched in the dielectric after the source/drain formation.
  - Older processes commonly use aluminum (Al) for wires, although newer ones offer copper (Cu) for lower resistance.
  - Tungsten (W) can be used as a plug to fill the contact holes.
- 
+ </details>
+  
 <Details>
  <summary> 9. Passivation </summary>
  
@@ -275,5 +276,12 @@ Overview of Sand-to-Silicon**
  
  - Metrology is the science of measuring.
  - Everything that is built in a semiconductor process has to be measured to give feedback to the manufacturing process.
+</details>
+</details>
+
+<Details>
+ <summary> Lab </summary>
+  
+  [Assignment Day 2.pdf](https://github.com/Maryam288/Intel-CKT-Training/files/10389974/Assignment.Day.2.pdf)
 
  
