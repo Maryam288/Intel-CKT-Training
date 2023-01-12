@@ -5,6 +5,7 @@
 - **Day 1 - Fundamentals of VLSI Design and
 Overview of Sand-to-Silicon**
 - **Day 2 - Details of IC Manufacturing Process**
+- **Day 3 - Overview of Digital and Custom IC Design Flow and requirement of Computer-Aided Design (CAD) Tools and Process Design Kit (PDK)**
   
 ## Day 1 
  <details><summary> Theory </summary>
@@ -283,5 +284,42 @@ Overview of Sand-to-Silicon**
  <summary> Lab </summary>
   
   [Assignment Day 2.pdf](https://github.com/Maryam288/Intel-CKT-Training/files/10389974/Assignment.Day.2.pdf)
-
+</details>
  
+## Day3
+  <Details>
+  <summary> Theory </summary>
+  
+ ## **CMOS Fabrication Process in DeepSubmicron (DSM) and Ultra DeepSubmicron (UDSM) Technology**
+ 
+ - **Disadvantage of the Submicron CMOS Process**
+ 
+    - Isolation of the Transistors:
+      - The use of **reverse bias pn junctions** to isolate transistors becomes **impractical as the transistor sizes decrease**.
+    
+ - **Local Oxidation of Silicon (LOCOS) Isolation Process**
+    - LOCOS is the traditional isolation technique used in submicron processes.
+    
+  ![image](https://user-images.githubusercontent.com/122155193/211982154-f8f38e6d-ec0d-4d9e-b6c8-30f3d6454cdc.png)    ![image](https://user-images.githubusercontent.com/122155193/211982694-d5600c58-a8c2-4875-9c4d-e6f1de87bdc5.png)
+   
+   - Limitation of this technique:
+     - Bird’s beak effect
+     - Surface area which is lost to this encroachment
+     
+   - Advantages of LOCOS fabrication process:
+      - Simple process flow
+      - High oxide quality because the whole LOCOS structure is thermally grown.
+   
+   
+  - **Sallow Trench Isolation Technology**
+  
+    - STI isolation process is the preferred isolation process for deep-submicron process because it completely avoids Bird’s beak shape characteristics.
+    
+    ![image](https://user-images.githubusercontent.com/122155193/211989171-54995dfb-273f-42e8-8011-781d3c3458ed.png)
+    - STI is more suitable for the increased density in a small area because it allows forming smaller isolation regions.
+    - The disadvantage is larger number of process steps.
+
+  - **Illustration of a Deep Submicron (DSM) CMOS Technology**
+  
+    - 
+    
