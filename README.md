@@ -321,5 +321,19 @@ Overview of Sand-to-Silicon**
 
   - **Illustration of a Deep Submicron (DSM) CMOS Technology**
   
-    - 
-    
+    - The DSM technology provides:
+      - A deep n-well that can be utilized to reduce substrate noise coupling.
+      - A MOS Varactor that can be used to make voltage controlled oscillators (VCOs).
+      - Different kind of resistors like: **Diffused and/or implanted resistors**, **Well resistors**, **Poly resistors**, **Metal Resistors**.
+      - At least 6 levels of metal that can form many useful structures such as inductors, capacitors, and transmission lines.
+  
+       ![image](https://user-images.githubusercontent.com/122155193/212009429-1cd43858-07c1-46c4-8753-2daf96f1b9b9.png)
+
+- **Different Types of Capacitor in Deep Submicron (DSM) CMOS Technology**
+  ![image](https://user-images.githubusercontent.com/122155193/212011793-ef905a9b-4e3e-4948-a520-d8fe48e1a840.png)
+
+ - **Example of a DSM Technology Process (SKY130)** 
+  
+  ![image](https://user-images.githubusercontent.com/122155193/212012219-db2cf3a3-d372-4ea5-82a4-ba27bfdf4f95.png)
+  
+  - **Major Fabrication Steps for a DSM CMOS Process** 
