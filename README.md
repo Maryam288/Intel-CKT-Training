@@ -126,6 +126,19 @@ Overview of Sand-to-Silicon**
         - Design rules and checking
 </details>
 
+<Details>
+  <summary> Lab </summary>
+  
+  ![image](https://user-images.githubusercontent.com/122155193/212777972-3d05e02e-1d9e-40ab-acba-fa41b4cd8039.png)
+
+  
+  ![image](https://user-images.githubusercontent.com/122155193/212778069-7ee6a882-57e1-48c8-941b-44407e52732e.png)
+
+  
+  ![image](https://user-images.githubusercontent.com/122155193/212778105-4a20f06e-20c8-4c82-8302-8c0f57c0a0a4.png)
+
+</details>
+
 ## Day2
   <details>
   <summary> Theory </summary>
@@ -455,4 +468,70 @@ Overview of Sand-to-Silicon**
  - Increased nonlinearity.
  - Increased noise and poorer matching.
  </details>
+ </details>
+
+<Details>
+ <summary> Lab </summary> 
   
+ <Details>
+ <summary> Q6) What are the advantages of ultra-deep submicron process over deep submicron process. </summary>
+ 
+  - Improved Ion/Ioff
+  - Reduced gate capacitance
+  - Higher drive current capability
+  - Reduced junction capacitance per transconductance
+  - More speed
+ </details>
+  
+ <Details>
+ <summary> Q7) What is the difference between LOCOS and STI process? </summary>
+   
+ ![image](https://user-images.githubusercontent.com/122155193/212779336-9637f723-ba9d-4a7f-9591-d5aa9fa8fe06.png)
+</details>
+  
+  <Details>
+ <summary> Q8) Why for body connection a heavily doped n+ or p+ is used? </summary>
+    
+- A heavily doped N+ or P+ diffusion is made for the metallic contact. This creates a conductive junction between the metal and the semiconductor, thus giving a good electrical contact to the bulk.
+    
+</details>
+<Details>
+ <summary> Q9) What is use of silicide and poolside? </summary>  
+  
+  - To interconnect between N+ or P+ diffusion to the metal.
+ </details>
+  
+ <Details>
+ <summary> Q10) Which process steps used for control threshold voltage and punch-through effect? </summary>   
+   
+   - Oxidation and Diffusion
+  </details>
+  <Details>
+ <summary> Q11) Draw a top view, front view and 3D view of a CMOS inverter and annotate the length and width of both PMOS and NMOS transistor. </summary>   
+ </details>
+  
+   <Details>
+ <summary> Q12) Why sidewall spacer are used in DSM technology? </summary>
+     
+ - To insulate the drain and source metal contacts from the gate of the transistor.
+     
+  </details>    
+ <Details>
+ <summary> Q13) What are the advantages of Deep N-well technology over n-well technology? </summary> 
+ 
+   - Deep N-well decreases the noise coupling through it to the substrate and giving the advantage of fully isolated NMOS devices.
+   
+</details>    
+ <Details>
+ <summary> Q14) What is passivation layer? </summary>    
+   
+   - A layer normally used protect the active semiconductor surface from the surrounding environment.
+   
+ </details>    
+ <Details>
+ <summary> Q15) What is Bird’s beak in LOCOS process and what is the impact on the transistor performance? </summary>     
+   
+   - As the oxide grows, the nitride mask, which is meant to block the oxide from growing everywhere, is slightly bent due to stress caused by the oxide pushing the nitride as it grows.
+   
+   - The encroachment of field oxide in the active region reduces the area available to form a transistor and therefore it limits device scaling and device density in VLSI cuts which will limit the device performance. 
+   </details>
