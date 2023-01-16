@@ -339,3 +339,106 @@ Overview of Sand-to-Silicon**
   - **Major Fabrication Steps for a DSM CMOS Process** 
 
   ![image](https://user-images.githubusercontent.com/122155193/212208610-02744f7c-4479-41d4-84d0-38e75fe3c879.png)
+
+<Details>
+ <summary> n and p-well Creation </summary>
+ - NMOS wil be fabricated in the p-well and PMOS in the n-well.
+ - Done by implantation followed by a deep diffusion.
+ </details>
+ 
+ <Details>
+ <summary> Sallow Trench Isolation Creation </summary>
+ -  STI electrically isolates one region/transistor from another.
+ </details>
+ 
+ <Details>
+ <summary> Threshold Shift and Anti-Punch through Implants </summary>
+ - The natural thresholds of the **NMOS is about 0V** and of the **PMOS is about –1.2V**.
+ - p-implant is used to make the NMOS harder to invert and the PMOS easier resulting in threshold voltages balanced around zero volts.
+ - Implant can be applied to create a higher-doped region beneath the channels to prevent punch-through from the drain depletion region extending to source depletion region.
+ </details>
+ 
+ <Details>
+ <summary> Thin Oxide and Polysilicon Gate </summary>
+ - A thin oxide is deposited followed by polysilicon. These layers are removed where they are not wanted.
+ </details>
+ 
+ <Details>
+ <summary> Lightly Doped Source and Drain </summary>
+ - A lightly-doped implant is used to create a lightly-doped source and drain next to the channel of the MOSFETs.
+ </details>
+ 
+ <Details>
+ <summary> Sidewall Spacer </summary>
+ - A layer of dielectric is deposited on the surface and removed in such a way as to leave “sidewall spacers” next to the thin-oxide-polysilicon-polycide sandwich.
+ - These sidewall spacers will prevent the part of the source and drain next to the channel from becoming heavily doped.
+ </details>
+ 
+ <Details>
+ <summary> Implantation of Havily Doped Source and Drain </summary>
+ - Provide the completed sources and drains.
+ - Allows for ohmic contact into the wells and substrate.
+  </details>
+  
+  <Details>
+ <summary> Siliciding (Salicide and Polyside) </summary>
+ - Reduces the resistance of the bulk diffusions and polysilicon and forms an ohmic contact with material on which it is deposited.
+  </details>
+  
+ <Details>
+ <summary> Intermediate Oxide Layer </summary> 
+ - An oxide layer is used to cover the transistors and to planarize the surface.
+ </details>
+ 
+ <Details>
+ <summary> First Level Metal </summary> 
+ - Tungsten plugs are built through the lower intermediate oxide layer to provide contact between the devices, wells and substrate to the first-level metal.
+ </details>
+ 
+ <Details>
+ <summary> Second Level Metal </summary> 
+ - The previous step is repeated for the second-level metal.
+ </details>
+ 
+ - **Summary of Deep Submicron (DSM) CMOS Fabrication Process**
+    - DSM technology typically has a minimum channel length between 0.35μm and 0.1μm.
+    - DSM technology addresses the problem of excessive depletion region widths in junction isolation techniques by using shallow trench isolation.
+    - DSM technology may have from 4 to 8 levels of metal.
+    - Lightly doped drains and sources are a key aspect of DSM technology.
+    
+ - **Ultra Deep Submicron (UDSM) CMOS Technology**
+    - Lmin ≤ 0.1 microns.
+    - Minimum feature size less than 100 nanometers.
+    - 22 nm drawn length, 5 nm lateral diffusion, 1 nm transistor gate oxide, 8 layers of copper interconnect.
+    - Specialized processing is used to increase drive capability and maintain low off currents.
+    
+  - **Advantage of UDSM CMOS Technology**
+  
+ <Details>
+ <summary> Digital Viewpoint </summary> 
+ - Improved Ion/Ioff
+ - Reduced gate capacitance
+ - Higher drive current capability
+ - Reduced interconnect density
+ - Reduction of active power
+ </details>
+ 
+  <Details>
+ <summary> Analog Viewpoint </summary> 
+ - More levels of metal
+ - Higher cutoff frequency
+ - Higher capacitance density
+ - Reduced junction capacitance per transconductance
+ - More speed
+ </details>
+ 
+ - **Disadvantage of UDSM CMOS Technology**
+ <Details>
+ <summary> Analog Viewpoint </summary> 
+ - Reduction in power supply resulting in reduced headroom.
+ - Gate leakage currents.
+ - Reduced small signal intrinsic gain.
+ - Increased nonlinearity.
+ - Increased noise and poorer matching.
+ </details>
+  
