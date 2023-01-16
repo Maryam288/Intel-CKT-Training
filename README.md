@@ -342,62 +342,73 @@ Overview of Sand-to-Silicon**
 
 <Details>
  <summary> n and p-well Creation </summary>
- - NMOS wil be fabricated in the p-well and PMOS in the n-well.
- - Done by implantation followed by a deep diffusion.
+
+- NMOS wil be fabricated in the p-well and PMOS in the n-well.
+- Done by implantation followed by a deep diffusion.
  </details>
  
  <Details>
  <summary> Sallow Trench Isolation Creation </summary>
- -  STI electrically isolates one region/transistor from another.
+
+-  STI electrically isolates one region/transistor from another.
  </details>
  
  <Details>
  <summary> Threshold Shift and Anti-Punch through Implants </summary>
- - The natural thresholds of the **NMOS is about 0V** and of the **PMOS is about –1.2V**.
- - p-implant is used to make the NMOS harder to invert and the PMOS easier resulting in threshold voltages balanced around zero volts.
- - Implant can be applied to create a higher-doped region beneath the channels to prevent punch-through from the drain depletion region extending to source depletion region.
+
+- The natural thresholds of the **NMOS is about 0V** and of the **PMOS is about –1.2V**.
+- p-implant is used to make the NMOS harder to invert and the PMOS easier resulting in threshold voltages balanced around zero volts.
+- Implant can be applied to create a higher-doped region beneath the channels to prevent punch-through from the drain depletion region extending to source depletion region.
  </details>
  
  <Details>
  <summary> Thin Oxide and Polysilicon Gate </summary>
- - A thin oxide is deposited followed by polysilicon. These layers are removed where they are not wanted.
+
+- A thin oxide is deposited followed by polysilicon. These layers are removed where they are not wanted.
  </details>
  
  <Details>
  <summary> Lightly Doped Source and Drain </summary>
- - A lightly-doped implant is used to create a lightly-doped source and drain next to the channel of the MOSFETs.
+
+- A lightly-doped implant is used to create a lightly-doped source and drain next to the channel of the MOSFETs.
  </details>
  
  <Details>
  <summary> Sidewall Spacer </summary>
- - A layer of dielectric is deposited on the surface and removed in such a way as to leave “sidewall spacers” next to the thin-oxide-polysilicon-polycide sandwich.
+
+- A layer of dielectric is deposited on the surface and removed in such a way as to leave “sidewall spacers” next to the thin-oxide-polysilicon-polycide sandwich.
  - These sidewall spacers will prevent the part of the source and drain next to the channel from becoming heavily doped.
  </details>
  
  <Details>
  <summary> Implantation of Havily Doped Source and Drain </summary>
- - Provide the completed sources and drains.
- - Allows for ohmic contact into the wells and substrate.
+
+- Provide the completed sources and drains.
+- Allows for ohmic contact into the wells and substrate.
   </details>
   
   <Details>
  <summary> Siliciding (Salicide and Polyside) </summary>
- - Reduces the resistance of the bulk diffusions and polysilicon and forms an ohmic contact with material on which it is deposited.
+
+- Reduces the resistance of the bulk diffusions and polysilicon and forms an ohmic contact with material on which it is deposited.
   </details>
   
  <Details>
  <summary> Intermediate Oxide Layer </summary> 
- - An oxide layer is used to cover the transistors and to planarize the surface.
+
+- An oxide layer is used to cover the transistors and to planarize the surface.
  </details>
  
  <Details>
  <summary> First Level Metal </summary> 
- - Tungsten plugs are built through the lower intermediate oxide layer to provide contact between the devices, wells and substrate to the first-level metal.
+
+- Tungsten plugs are built through the lower intermediate oxide layer to provide contact between the devices, wells and substrate to the first-level metal.
  </details>
  
  <Details>
  <summary> Second Level Metal </summary> 
- - The previous step is repeated for the second-level metal.
+
+- The previous step is repeated for the second-level metal.
  </details>
  
  - **Summary of Deep Submicron (DSM) CMOS Fabrication Process**
@@ -416,7 +427,8 @@ Overview of Sand-to-Silicon**
   
  <Details>
  <summary> Digital Viewpoint </summary> 
- - Improved Ion/Ioff
+
+- Improved Ion/Ioff
  - Reduced gate capacitance
  - Higher drive current capability
  - Reduced interconnect density
@@ -425,7 +437,8 @@ Overview of Sand-to-Silicon**
  
   <Details>
  <summary> Analog Viewpoint </summary> 
- - More levels of metal
+
+- More levels of metal
  - Higher cutoff frequency
  - Higher capacitance density
  - Reduced junction capacitance per transconductance
@@ -435,7 +448,8 @@ Overview of Sand-to-Silicon**
  - **Disadvantage of UDSM CMOS Technology**
  <Details>
  <summary> Analog Viewpoint </summary> 
- - Reduction in power supply resulting in reduced headroom.
+
+- Reduction in power supply resulting in reduced headroom.
  - Gate leakage currents.
  - Reduced small signal intrinsic gain.
  - Increased nonlinearity.
