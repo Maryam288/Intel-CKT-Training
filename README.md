@@ -6,6 +6,7 @@
 Overview of Sand-to-Silicon**
 - **Day 2 - Details of IC Manufacturing Process**
 - **Day 3 - Overview of Digital and Custom IC Design Flow and requirement of Computer-Aided Design (CAD) Tools and Process Design Kit (PDK)**
+- **Day 4 - Metal-Oxide-Semiconductor Structure** 
   
 ## Day 1 
  <details><summary> Theory </summary>
@@ -534,4 +535,167 @@ Overview of Sand-to-Silicon**
    - As the oxide grows, the nitride mask, which is meant to block the oxide from growing everywhere, is slightly bent due to stress caused by the oxide pushing the nitride as it grows.
    
    - The encroachment of field oxide in the active region reduces the area available to form a transistor and therefore it limits device scaling and device density in VLSI cuts which will limit the device performance. 
-   </details>
+ </details>
+ </details>
+ 
+## Day4
+  <details>
+  <summary> Theory </summary>
+  
+ ## Metal-Oxide-Semiconductor Structure 
+  - **Metal-Oxide-Semiconductor (MOS) Device Structure**
+  
+    - MOS junction simply a capacitor.
+    - No current-voltage relationship, only capacitorvoltage relationship.
+    
+    ![image](https://user-images.githubusercontent.com/122155193/215636640-a6cc772b-f90a-4789-a4ce-cdfca27b0cc1.png)
+
+- **MOS Device Structure and Fabrication**
+
+<details>
+<summary> Fabrication </summary>
+
+   - Oxidation: process to create SiO2 on top of Silicon.
+   - Metallization: process to deposit poly-silicon on top of SiO2.
+</details> 
+
+<details>
+<summary> Device Structure </summary>
+
+  - Gate and substrate are different material so there is a contact potential between them (expressed as metal to semiconductor work function (ϕms)).
+  - Interface is between SiO2 and Silicon
+</details> 
+
+- **Ideal MOS Junction or Capacitor**
+
+<details>
+<summary> Case1: Accumulation Mode of Operation </summary>
+
+## **Accumulation Mode (V < 0)**
+
+  - Pile of majority carrier at the interface.
+  - Charge at the surface directly proportional to voltage.
+
+![image](https://user-images.githubusercontent.com/122155193/215638041-ec999fd0-297a-45ca-a9db-8b6615abe401.png)
+</details> 
+
+<details>
+<summary> Case2: Depletion Mode of Operation </summary>
+
+## **Depletion Mode (0 < V < VT)**    
+
+  - The semiconductor surface starts to deplete and the type of charge at the surface is –ve and gradually increase with the increase of voltage.
+  - **Weak inversion voltage** is the voltage at which the surface carrier concentration is exactly equal to bulk carrier concentration and from this point the weak inversion started.
+  - Charge at the surface directly proportional to voltage.
+  - **Threshold voltage** is the voltage at which the surface concentration exactly equal to the bulk concentration.
+  - This is called inversion point and at this point depletion mode ends and strong inversion started.
+  
+![image](https://user-images.githubusercontent.com/122155193/215639254-0e3ee43f-18f0-4ec9-a02f-ee19bb2d2e54.png)
+</details> 
+
+<details>
+<summary> Case3: Strong Inversion Mode of Operation </summary>
+
+## **Strong Inversion Mode (V ≥ VT)**    
+
+  - At threshold voltage a channel form at the surface of the semiconductor due to inversion charges.
+  - Before threshold voltage the charge comes from negatively charged ionized acceptors.
+  - After threshold voltage, the more charge comes from the electrons rather than depleting the holes.
+  - The extra negative charge required for the semiconductor is comes from the mobile electrons which are very close to the surface.
+  
+  ![image](https://user-images.githubusercontent.com/122155193/215639559-c8ce74f2-3fa1-499f-9f67-bce9026215eb.png)
+  
+</details> 
+
+- **Summary of the MOS Operation Modes**
+
+![image](https://user-images.githubusercontent.com/122155193/215639865-0a6ba5fe-67cb-413a-baf5-f03e46c5240d.png)
+
+  - Flat band voltage is 0 for ideal MOS structure.
+  - Flat band means flatness of conduction and valence band edges at semiconductor surface.
+  
+- **Q-V Characteristics of MOS Structure** 
+ 
+  ![image](https://user-images.githubusercontent.com/122155193/215640211-26a81d2c-c86b-462f-8b30-aa50f032b8f8.png)
+
+ - Surface Charges at different regions
+  
+<details>
+<summary> Accumulation </summary>
+
+![image](https://user-images.githubusercontent.com/122155193/215664491-a76dd783-6bea-406f-9629-a6018f62a797.png)
+
+</details> 
+
+<details>
+<summary> Depletion </summary>
+
+![image](https://user-images.githubusercontent.com/122155193/215664814-2e512672-52f3-4e8a-b9a8-2107378e9e24.png)
+
+</details>
+
+<details>
+<summary> Inversion </summary>
+
+![image](https://user-images.githubusercontent.com/122155193/215665123-3d16ef04-191a-4f2e-b52c-c0ac80b980be.png)
+
+</details>
+
+<details>
+<summary> Threshold Voltage </summary>
+
+![image](https://user-images.githubusercontent.com/122155193/215665313-2b4ef7f0-b0e5-46bb-85eb-30b79f5788db.png)
+
+</details>
+
+- **C-V Characteristics of MOS Structure** 
+
+![image](https://user-images.githubusercontent.com/122155193/215665604-025af0cf-c9c7-453a-aa23-972c5e13c186.png)
+
+- **Non Ideal MOS Structure** 
+
+<details>
+<summary> Effect of fixed charge Qf </summary>
+
+![image](https://user-images.githubusercontent.com/122155193/215665879-b3a0e828-18ee-4992-9da1-4a9683ef2e63.png)
+
+- To cerate a zero charge on silicon a negative voltage is required to give at gate terminal.
+- By applying a negative volute at gate the surface charge at silicon will be zero.
+- Zero charge in the semiconductor corresponds to flat-band condition of a MOS junction.
+</details>
+
+<details>
+<summary> Effect of work metal-semiconductor work function difference ϕms </summary>
+
+![image](https://user-images.githubusercontent.com/122155193/215665963-4d0e0ccc-2872-4bae-8921-c744e36599f7.png)
+
+- Electrons are always moves from higher energy level to lower energy level.
+- Electrons are transferred through wire.
+- To remove the electrons from semiconductor surface we have to provide a –ve voltage to the gate.
+</details>
+
+- **Summary of Nonideal MOS Capacitor** 
+
+ 1. Effect of fixed oxide charge 𝑄f
+  
+  ![image](https://user-images.githubusercontent.com/122155193/215668210-27ebfbf1-aa29-47e0-ad78-123634557852.png)
+  
+ 2. Effect of work metal-semiconductor work function difference ϕms
+  
+  ![image](https://user-images.githubusercontent.com/122155193/215668285-22ce8cc9-fe8a-4198-b567-5649bb75d3b3.png)
+
+ 3. In presence of both fixed charge and metal-to-semiconductor work function
+
+![image](https://user-images.githubusercontent.com/122155193/215668376-a188458d-30cc-4e27-b91e-03d5c3ea3d16.png)
+
+ 4. So threshold voltage od a nonideal MOS capacitor will be
+  
+  ![image](https://user-images.githubusercontent.com/122155193/215668468-9319084b-083d-47bb-b426-aba394a3374f.png)
+  
+</details>
+
+<details>
+<summary> Lab </summary>
+</details>
+
+
