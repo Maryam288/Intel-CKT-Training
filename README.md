@@ -7,6 +7,7 @@ Overview of Sand-to-Silicon**
 - **Day 2 - Details of IC Manufacturing Process**
 - **Day 3 - Overview of Digital and Custom IC Design Flow and requirement of Computer-Aided Design (CAD) Tools and Process Design Kit (PDK)**
 - **Day 4 - Metal-Oxide-Semiconductor Structure** 
+- **Day 5 - Metal-Oxide-Semiconductor FIELD EFFECT TRANSISTOR** 
   
 ## Day 1 
  <details><summary> Theory </summary>
@@ -696,6 +697,182 @@ Overview of Sand-to-Silicon**
 
 <details>
 <summary> Lab </summary>
+
+<details>
+<summary> 1. What are the main differences between ideal and real MOS structure? </summary>
+
+![image](https://user-images.githubusercontent.com/122155193/215671227-45643d7a-e561-4598-9e89-ff562027b9a0.png)
+
+</details>
+
+<details>
+<summary> 2. What are the different modes of operation in a MOS junction? </summary>
+
+- Accumulation Mode (V < 0)
+- Depletion Mode (0 < V < Vt)
+- Strong Inversion Mode (V ≥ Vt)
+</details>
+
+<details>
+<summary> 3. What is the difference between weak inversion and strong inversion of a MOS junction? </summary>
+
+![image](https://user-images.githubusercontent.com/122155193/215672027-d394e1e7-f836-4776-a720-cf048c662891.png)
+</details>
+
+<details>
+<summary> 4. What is metal-to-semiconductor work function? </summary>
+
+- The energy difference between the metal and the semiconductor.
+</details>
+
+<details>
+<summary> 5. For a heavily n-doped poly-silicon metal and a p-substrate semiconductor, what will be the metal-to-semiconductor work function? Positive or negative?</summary>
+
+- The heavily n-doped poly-silicon will have the fermi-level very close to conduction band (Ec), while p-substrate semiconductor will have the fermi-level close to valance band (Ev).
+
+- ϕms = ϕm - ϕs
+
+- In this case, ϕm < ϕs
+
+- Thus, ϕms will be negative.
+
+</details>
+
+<details>
+<summary> 6. For a heavily p-doped poly-silicon metal and a n-substrate semiconductor, what will be the metal-to-semiconductor work function? Positive or negative?</summary>
+
+- The heavily p-doped poly-silicon will have the fermi-level very close to valance band (Ev), while n-substrate semiconductor will have the fermi-level close to conduction band (Ec).
+
+- ϕms = ϕm - ϕs
+
+- In this case, ϕm > ϕs
+
+- Thus, ϕms will be positive.
+</details>
+
+<details>
+<summary> 7. What is threshold voltage of a MOS junction? Express threshold voltage for a non-ideal MOS junction. </summary>
+
+- Threshold voltage is the voltage at which the surface concentration exactly equal to the bulk concentration
+
+![image](https://user-images.githubusercontent.com/122155193/215674955-bd07a353-7590-4f39-ae66-88deaa119135.png)
+
+</details>
+
+<details>
+<summary> 8. If the oxide (SiO2) increases for a MOS structure, the threshold voltage will increase or decrease? </summary>
+
+- Threshold voltage will increase.
+</details>
+
+<details>
+<summary> 9. Instead of a lightly doped p-substrate, if you use a heavily doped p-substrate in a MOS structure then what will be the change in threshold voltage? Will it increase or decrease? </summary>
+
+- Threshold voltage will increase.
+</details>
+
+<details>
+<summary> 10. Describe, why MOS capacitance stay minimum at very high frequency and back to high value at low frequency </summary>
+
+- High frequency always fluctuate at a high speed.
+- There is no long time for the capacitor to collect higher charge to achieve higher capacitance.
+- Thus, higher frequency get lower capacitance. 
+</details>
+</details>
+
+## Day5
+  <details>
+  <summary> Theory </summary>
+  
+ ## **Metal-Oxide-Semiconductor FIELD EFFECT TRANSISTOR**
+ 
+ - **MOSFET Structure**
+ 
+ ![image](https://user-images.githubusercontent.com/122155193/215681889-ee72fd9f-89b3-4b40-b9f0-ac424ba47fce.png)
+
+ ![image](https://user-images.githubusercontent.com/122155193/215681942-acd39576-b92b-4a06-b0e3-8384fe730af1.png)
+
+ 
+ <details>
+ <summary> Top View (Layout View) </summary>
+ 
+ ![image](https://user-images.githubusercontent.com/122155193/215681520-92e68393-48d6-47cb-a203-0394f7c1e2db.png)
+ </details>
+ 
+ <details>
+ <summary> Layout Layers and Rules </summary>
+ 
+ ## Layout Layers
+ - P-substrate
+ - Thin oxide
+ - Polysilicon
+ - n+ diffusion
+ - Contact
+ - Metal
+ 
+ ## Layout Rules
+ - Min. width
+ - Max Width
+ - Spacing
+ - Area
+ - Enclosure
+ - Extension
+  </details>
+ 
+ <details>
+ <summary> Front View (Cross-section) </summary>
+ 
+ ![image](https://user-images.githubusercontent.com/122155193/215681683-08bf5370-3ba2-4310-b54a-5ef19fa24bc9.png)
+</details>
+
+- **MOSFET Operation**
+
+<details>
+<summary> Cut-off </summary>
+
+![image](https://user-images.githubusercontent.com/122155193/215708266-3f68bdf1-7c72-48a2-bd70-a2d097ccb54d.png)
+
+- Gate voltage lower than threshold voltage (Vgs < Vt).
+- Drain current, Id = 0
+- Application: Switch
+</details>
+
+<details>
+<summary> Linear </summary>
+
+![image](https://user-images.githubusercontent.com/122155193/215708488-14e39dd8-c3e7-4fa3-a2ee-e01c676c69a7.png)
+
+- Gate voltage slightly above threshold voltage (Vgs - Vt >= Vds)
+- Id increase with the increases of Vgs
+
+![image](https://user-images.githubusercontent.com/122155193/215707513-ad4a434b-4220-4404-85d6-8408b013005a.png)
+
+- Application: switch and linear resistor
 </details>
 
 
+<details>
+<summary> Saturation </summary>
+
+![image](https://user-images.githubusercontent.com/122155193/215708579-94c60ce7-00e5-4db2-8e9a-be2855fd061f.png)
+
+- Gate voltage much more higher than threshold voltage (Vgs - Vt < Vds)
+- The curent from drain to source is saturated even the Vds keep increasing.
+- Maximum Id.
+
+![image](https://user-images.githubusercontent.com/122155193/215709056-2e35fb69-2620-4013-9092-55a9f2bc5254.png)
+
+- Application: Amplifier and constant current source
+</details>
+
+- **ID-VGS Characteristics**
+
+![image](https://user-images.githubusercontent.com/122155193/215711062-29223102-1ba3-40dc-b5ea-4bf419f6eedb.png)
+
+- **ID-VGS Characteristics with Body Bias**
+
+![image](https://user-images.githubusercontent.com/122155193/215711285-585c0df5-1a7f-4fbd-8fe9-5735c99216ca.png)
+
+- **ID-VDS Characteristics**
+
+![image](https://user-images.githubusercontent.com/122155193/215711428-5e9e2930-f7e6-4eee-b92a-4facf71339db.png)
