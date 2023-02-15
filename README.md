@@ -876,3 +876,12 @@ Overview of Sand-to-Silicon**
 - **ID-VDS Characteristics**
 
 ![image](https://user-images.githubusercontent.com/122155193/215711428-5e9e2930-f7e6-4eee-b92a-4facf71339db.png)
+
+  </details>
+  
+## Day6
+  <Details>
+  <summary> Lab </summary> 
+    
+ ![image](https://user-images.githubusercontent.com/122155193/219219832-126f4fc6-dbfe-4c8b-ba36-a98787c64f2b.png)
+ 
