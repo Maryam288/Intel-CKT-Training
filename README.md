@@ -885,3 +885,4 @@ Overview of Sand-to-Silicon**
     
  ![image](https://user-images.githubusercontent.com/122155193/219219832-126f4fc6-dbfe-4c8b-ba36-a98787c64f2b.png)
  
+[Assignment - Day6](https://github.com/Maryam288/Intel-CKT-Training/blob/main/Assignment6)
