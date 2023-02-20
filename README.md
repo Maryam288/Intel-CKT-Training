@@ -882,7 +882,13 @@ Overview of Sand-to-Silicon**
 ## Day6
   <Details>
   <summary> Lab </summary> 
+  
+  ![image](https://user-images.githubusercontent.com/122155193/219992001-1499b47e-156a-4b46-9640-ecc89c4c73f4.png)
+
     
  ![image](https://user-images.githubusercontent.com/122155193/219219832-126f4fc6-dbfe-4c8b-ba36-a98787c64f2b.png)
+ 
+ ![image](https://user-images.githubusercontent.com/122155193/219991875-df8539e4-ae46-4963-be57-71ed15c806b8.png)
+
  
 [Assignment - Day6](https://github.com/Maryam288/Intel-CKT-Training/blob/main/Assignment6)
