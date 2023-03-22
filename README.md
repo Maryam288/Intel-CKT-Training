@@ -913,6 +913,35 @@ Overview of Sand-to-Silicon**
     
   ![image](https://user-images.githubusercontent.com/122155193/226820239-58cd1d10-76d6-41de-8588-fcdb19b847cb.png)    
 </details> 
+
+## **Schematic Design, Circuit Simulation, Layout Design and Postlayout Simulation**
+    
+  - **Custom IC Design Flow using Tools**
+  
+  <Details>
+  <summary> Schematic Drawing Phase </summary>
+  
+## **Step1: Schematic entry**
+![image](https://user-images.githubusercontent.com/122155193/226825991-006385a0-e508-48bc-81c2-d60c5ed44ed5.png)
+
+   - Instantiate PMOS and NMOS,and change the W, L, F and M
+   - Complete the connection using wires
+   - Put input, output, vdd and gnd pins.
+
+ ## **Step2: Symbol creation**   
+ ![image](https://user-images.githubusercontent.com/122155193/226826421-34a2e565-b19e-495e-9259-7825c1afa983.png)
+    
+   - Create symbol view from schematic view.
+   - Modify the symbol shape and place the pin names in appropriate places.
+    
+  ## **Step3: Testbench creation for simulation**
+  ![image](https://user-images.githubusercontent.com/122155193/226826723-3bb9eab4-7854-4337-ae49-780b6f22e8dc.png)
+
+   - Instantiate previously created symbol.
+   - Put the supply, ground and input sources.
+   - Modify the properties of the input source depends on the analysis type.
+   - Connect the approximate output loads.
+</details>    
 </details>
   
   <Details>
