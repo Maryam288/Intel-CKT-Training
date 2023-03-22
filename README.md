@@ -880,6 +880,41 @@ Overview of Sand-to-Silicon**
   </details>
   
 ## Day6
+  
+  <Details>
+  <summary> Theory </summary>
+   
+  ## **MOSFET Intrinsic Capacitances**  
+
+<Details>
+  <summary> Cutoff Region </summary>
+  
+   ![image](https://user-images.githubusercontent.com/122155193/226821016-76bf2be6-2995-4218-ae0f-48f9d8da9bfe.png)    
+</details>  
+    
+<Details>
+  <summary> Linear Region </summary>
+  
+   ![image](https://user-images.githubusercontent.com/122155193/226821616-e62227b5-782e-4403-8594-176820b578d8.png)    
+</details>  
+   
+<Details>
+  <summary> Saturation Region </summary>
+  
+   ![image](https://user-images.githubusercontent.com/122155193/226819671-23fd6edd-c3b0-45f4-9be5-b14703d9054a.png)    
+</details>  
+
+<Details>
+  <summary> Summary </summary>
+    
+  ![image](https://user-images.githubusercontent.com/122155193/226819817-5d99ea41-ce50-4acd-9764-634007e51ca0.png)
+
+  ![image](https://user-images.githubusercontent.com/122155193/226819967-4d29a1ee-a64a-42e4-8010-8bfa3d7bdfbb.png)
+    
+  ![image](https://user-images.githubusercontent.com/122155193/226820239-58cd1d10-76d6-41de-8588-fcdb19b847cb.png)    
+</details> 
+</details>
+  
   <Details>
   <summary> Lab </summary> 
   
