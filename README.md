@@ -942,6 +942,51 @@ Overview of Sand-to-Silicon**
    - Modify the properties of the input source depends on the analysis type.
    - Connect the approximate output loads.
 </details>    
+
+<Details>
+<summary> Circuit Simulation Phase </summary>
+  
+## **Step4: Launch ADE-L**
+  
+## **Step5: Select simulation type**  
+  
+  - **DC operating point sim**
+    - Vsup: Give the DC supply voltage
+    - Vin: Give a DC voltage (any voltage less than Vdd) and check all the node voltages.
+    - C: Capacitor value in pf range (ex:10-50pf)
+  - **DC sweep simulation**
+    - Vsup: Give the DC supply voltage
+    - Vin: Give a DC voltage (may be a variable name, which can be changed latter in ADE).
+    - C: Take a capacitor value in pf range (ex:10-50pf)
+    - Result: Plot the output curve. Also plot the current from the Vsup and understand the relation
+  - **Transient Simulation**
+    - Vsup: Give the DC supply voltage
+    - Vin: Set the initial voltage, final voltage, initial delay, rise time, fall time, pulse width and period, of the pulse input source,
+    - C: Take a capacitor value in pf range (ex:10-50pf)
+    - Result: Plot the output waveform and measure risetime, fall time and propagation delay manually.
+    - Can measure using calculator using readymade functions.
+  - **STEP Response (Transient)**
+    - Vsup: Take a pulse source
+    - Give appropriate step input
+    - Do the transient analysis
+    - Result: measure the rise time or fall time, propagation delay and time constant
+    - Verify the result with manual calculation.
+  - **Sinusoidal Response (Transient)**
+    - Vsup: Take a sinusoidal source and set the amplitude, frequency and phase.
+    - Run the transient simulation and plot the output waveform.
+    - Check the output waveform amplitude at different frequencies and find out the gain (Output/input).
+    - Compare the sinusoidal transient response result with the AC analysis result.
+  - **AC simulation**
+    - Take a resistance of Kilo-Ohm range and Capacitance of Pico-Farad (pF) range.
+    - Vsup: Take a DC supply source
+    - Set the magnitude to 1 and phase to 0 Deg and give frequency range.
+    - Choose the analysis type AC in ADE window
+    - Run the simulation and plot the output waveform (Gain vs Freq.). Check 3dB frequency.
+
+## **Step6: Plot waveforms and use calculators to plot for some predefined functions (risetime, fall time, delay, derivative, gain margin, phase margin etc)**  
+
+## **Step7: Do parametric simulation (vary two variable at a time)**  
+</details>
 </details>
   
   <Details>
